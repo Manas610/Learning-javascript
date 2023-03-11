@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My To do list</title>
+    </head>
+    <body>
+        <input id="todo-title" type="text" />
+        <button onclick="addTodo()">Add Todo</button>
+
+        <div id="todo-list"></div>
+    <script>
+        const todos =["study javascript","pending linked list lecture","study for msts"];
+
+
+        render();
+
+        function render() {
+        //reset the previous arraylist
+        document.getElementById("todo-list").innerHTML= '';
+
+
+        todos.forEach(function (theName){
+            const element = document.createElement("div");
+            element.innerText = theName;
+            document.getElementById("todo-list").appendChild(element);
+        });
+        }
+
+        function addTodo() {
+            const textBox = document.getElementById("todo-title");
+            const title = textBox.value;
+            todos.push(title);
+
+            render(); 
+        };
+    </script>
+    </body>
+</html>
