@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
 }
 
 input{
@@ -19,8 +20,27 @@ button{
     margin-top: 4px;
     font-weight: bold;
     padding: 10px 20px;
+    border: 2px solid #5f9341;
 }
 
 button:hover {
     cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    margin-top: 5px;
+}
+
+li a{
+    color: #5f9341;
+}
+
+#delete-btn{
+    background-color: white;
+    color: #5f9341;
 }
