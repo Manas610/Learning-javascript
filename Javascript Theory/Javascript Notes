@@ -1,0 +1,28 @@
+-# -note
+            //BOM - browser object model
+location.href   -#for getting the link of the current window from the window
+window.history.back()   -#opens previous tags (no need for adding window)
+
+//onclick will override if there are two functions whereas 
+//in addEventListener will execute both the function one after the other
+
+setTimeout(function , milliseconds )
+//executes a function after waiting for specific milliseconds
+
+setInterval(function , milliseconds )
+//same as setTimeout but executes continuosly
+
+clearTimeout(reference of the setTimeout or setInterval)
+//stops the execution of setTimeout or setInterval
+
+
+"this" object contains the current context
+// => fat arrow function does not take "this" so "this" will point to the window
+
+
+event capturing and bubbling 
+// the capture phase - going from the window to the event target phase
+// the bubble phase - from the event target parent to the window
+// bubbling is the default
+// use addEventListener for changing the order in the accordance with third argument as true
+// for stoping the next propagation event.stopPropagation()
