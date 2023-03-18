@@ -26,3 +26,17 @@ event capturing and bubbling
 // bubbling is the default
 // use addEventListener for changing the order in the accordance with third argument as true
 // for stoping the next propagation event.stopPropagation()
+
+
+// function when passed to a function then it is known as a callback function
+// calculator(5,9,sum)
+// calculator is higher order function because it passes another function as an argument
+// add is the callback function
+
+
+//hoisting is the mechanism where variables and functions declared are moved to the top of their scope before the code executes
+//their are two phases creation and execution
+
+
+// synchronous means 1 function will be done after another
+// asynchronous means function will be executed side by side
