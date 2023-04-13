@@ -11,7 +11,7 @@
 
 
 
-// topic - promises
+// topic - promises  
 // const promised = new Promise((resolve , reject) => {
 //     if(true){
 //         resolve("it worked");
@@ -27,6 +27,8 @@
 //     console.log(result2);
 // }
 // , console.log("fucked"));
+
+// we also use .catch for catching the rejected one and the .finally when we want something to execute regardless
 
 
 
