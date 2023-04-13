@@ -30,6 +30,15 @@
 
 // we also use .catch for catching the rejected one and the .finally when we want something to execute regardless
 
+// let promise = new Promise ( (resolve , reject) => {
+//     resolve("Hello")
+//  })
+ 
+// promise.then( () => console.log("yaas"))
+// .then( () => console.log("Heeeeelo"))
+// .catch( () => console.log("Catched"))
+// .finally( () => console.log("Noise"))
+
 
 
 // topic - async await
